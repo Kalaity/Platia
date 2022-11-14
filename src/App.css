@@ -1,9 +1,10 @@
 *{
   text-align: center;
-  background-color: rgb(95, 73, 90);
+  background-color: rgba(237, 225, 204, 0.733);
      }
+
 button{
-  display:flow-root;
+  display:left;
   margin-left: 1200px;
   margin: 10px;
   margin-left: 640px;

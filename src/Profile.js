@@ -9,7 +9,7 @@ export default function Profile({ Fullname, Bio, Proffession, myFunction, childr
       <h2>{Bio}</h2>
       <h3>{Proffession}</h3>
 
-      <button onClick={() => myFunction(Fullname)}>click me to see the truth</button>
+      <button onClick={() => myFunction(Fullname)}>press button</button>
       {children}
     </div>
   );
