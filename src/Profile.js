@@ -2,12 +2,12 @@ import PropTypes from "prop-types";
 
 
 
-export default function Profile({ Fullname, Bio, Proffession, myFunction, children }) {
+export default function Profile({ Fullname, Curriculum, Profession, myFunction, children }) {
   return (
     <div>
       <h1>{Fullname}</h1>
-      <h2>{Bio}</h2>
-      <h3>{Proffession}</h3>
+      <h2>{Curriculum}</h2>
+      <h3>{Profession}</h3>
 
       <button onClick={() => myFunction(Fullname)}>press button</button>
       {children}
@@ -16,7 +16,7 @@ export default function Profile({ Fullname, Bio, Proffession, myFunction, childr
 }
 
 Profile.defaultProps = {
-  name: "this my default name"
+  name: "John Doe"
 };
 
 Profile.propTypes = {
