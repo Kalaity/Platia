@@ -12,7 +12,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <Profile Fullname="Name: John Doe" myFunction={myFunction} Curriculum="Bio: When requested" Profession="Profession: Just being a cat"/>
+      <Profile Fullname="Name: Johnny Doe" myFunction={myFunction} Curriculum="Bio: When requested" Profession="Profession: Just being a cat"/>
           < img src="cat.jpg"/>
          
     </div>
